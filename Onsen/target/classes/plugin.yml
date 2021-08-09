@@ -1,0 +1,17 @@
+name: Onsen
+version: 2.3.2
+main: onsen.onsen.Onsen
+api-version: '1.15'
+authors: [46kuri_]
+description: LIFE pligin
+
+commands:
+  onsen:
+    description: 温泉コマンド
+    permission: Onsen.permission.onsen
+
+permissions:
+  Onsen.permission.admin:
+    default: op
+  Onsen.permission.onsen:
+    default: true
