@@ -27,7 +27,7 @@ public class OnsenCommands implements CommandExecutor {
             if (!(sender instanceof Player)) return false;
             Player player = (Player) sender;
             if (args.length <= 0) {
-                return false;
+                return true;
             }
             if(args[0].equalsIgnoreCase("set")){
                 if (sender.hasPermission("Onsen.permission.admin")) {
@@ -73,7 +73,7 @@ public class OnsenCommands implements CommandExecutor {
 
             if(args[0].equalsIgnoreCase("request")){
                 if (args.length <= 1) {
-                    return false;
+                    return true;
                 }
                 if(args[1].equalsIgnoreCase(args[1])){
                     ItemStack itempack = player.getInventory().getItemInMainHand();
