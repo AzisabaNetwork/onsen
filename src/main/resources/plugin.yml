@@ -1,6 +1,6 @@
 name: Onsen
 version: ${project.version}
-main: onsen.onsen.Onsen
+main: com.github.sirokuri_.onsen.Onsen
 api-version: '1.15'
 authors: [46kuri_]
 description: LIFE pligin
