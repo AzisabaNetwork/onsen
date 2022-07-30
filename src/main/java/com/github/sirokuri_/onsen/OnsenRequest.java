@@ -23,7 +23,7 @@ public class OnsenRequest implements Listener {
     }
 
     @EventHandler
-    public void onBlockDamege(BlockDamageEvent e){
+    public void onBlockDamage(BlockDamageEvent e){
         Player player = e.getPlayer();
         ItemStack itempack = player.getInventory().getItemInMainHand();
         ItemMeta itemMeta = itempack.getItemMeta();
